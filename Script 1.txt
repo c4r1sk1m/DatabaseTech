@@ -1,0 +1,44 @@
+USE `sp17-547-330-02_group6`;
+/*DROP TABLE IF EXISTS Final_stores;
+DROP TABLE IF EXISTS Final_pay;
+DROP TABLE IF EXISTS Final_visits;
+DROP TABLE IF EXISTS Final_items;
+DROP TABLE IF EXISTS Final_users;*/
+CREATE TABLE IF NOT EXISTS Final_items (
+    itemID INT NOT NULL AUTO_INCREMENT,
+    itemNumber INT,
+    itemName TEXT NULL DEFAULT NULL,
+    itemCost DOUBLE NOT NULL,
+    visitID INT NOT NULL,
+    PRIMARY KEY (itemID)
+)  ENGINE=INNODB;
+CREATE TABLE IF NOT EXISTS Final_pay (
+    payID INT NOT NULL AUTO_INCREMENT,
+    methodName TEXT NOT NULL,
+    CCNum INT,
+    
+    PRIMARY KEY (payID)
+)  ENGINE=INNODB;
+CREATE TABLE IF NOT EXISTS Final_stores (
+    storeID INT NOT NULL AUTO_INCREMENT,
+    storeName TEXT NOT NULL,
+    storeStreetNumber INT NOT NULL,
+    storeStreetName TEXT NOT NULL,
+    storeZipCode INT NOT NULL,
+    PRIMARY KEY (storeID)
+)  ENGINE=INNODB;
+CREATE TABLE IF NOT EXISTS Final_visits (
+    visitID INT NOT NULL AUTO_INCREMENT,
+    visitDate DATE NOT NULL,
+    payID INT NOT NULL,
+    storeID INT NOT NULL,
+    PRIMARY KEY (visitID)
+)  ENGINE=INNODB;
+CREATE TABLE IF NOT EXISTS Final_users (
+    userID INT NOT NULL AUTO_INCREMENT,
+    firstName TEXT NOT NULL,
+    lastName TEXT NOT NULL,
+    birthday DATE NOT NULL,
+    netID TEXT NOT NULL,
+    PRIMARY KEY (userID)
+)  ENGINE=INNODB;

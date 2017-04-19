@@ -1,0 +1,26 @@
+storeID,storeName,storeStreetNumber,storeStreetName,storeZipCode
+1,Starbucks,38,"College Avenue",8901
+2,Wendy's,126,"College Avenue",8901
+3,"Currito Rutgers",126,"College Avenue",8901
+4,"Qdoba Mexican Eats",55,"Rockafeller Road",8854
+5,"Sunoco APlus",12739,"Shops Lane",22033
+6,Ihop,1340,"Centennial ",8854
+7,"Walmart ",300,Wootton,7005
+8,"Taco Bell",1135,Easton,8873
+9,"CVS Pharmacy",3503,"Route 46",7054
+10,"Kabab Paradise",76,"N. Beverwyck Rd.",7034
+11,InspirationRoll,46,"S. Park Place",7960
+12,"Texas Roadhouse",400,"Stroud Mall",18360
+13,"Green Seed",38,Broadway,7834
+14,"Camelback Mountain Resort",168,"Camelback RD",18372
+15,AMC,363,"Mount Hope Ave",7866
+16,Ihop,1340,"Centennial ",8854
+17,"Walmart ",300,Wootton,7005
+18,"Taco Bell",1135,Easton,8873
+19,"CVS Pharmacy",3503,"Route 46",7054
+20,"Kabab Paradise",76,"N. Beverwyck Rd.",7034
+21,InspirationRoll,46,"S. Park Place",7960
+22,"Texas Roadhouse",400,"Stroud Mall",18360
+23,"Green Seed",38,Broadway,7834
+24,"Camelback Mountain Resort",168,"Camelback RD",18372
+25,AMC,363,"Mount Hope Ave",7866
